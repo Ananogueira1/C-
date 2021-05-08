@@ -1,0 +1,19 @@
+programa{
+    
+    numero inteiro
+
+    funcao inicio{
+        escreva ("Digite um numero de 0 a 10")
+        ler o (numero)
+
+        enquanto(numero>10)
+        {
+            escreva (Este valor é valido!!)
+        }
+
+        enquanto (numero <0)
+        {
+            escreva (Este valor é invalido!!)
+        }
+    }
+}

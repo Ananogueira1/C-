@@ -1,0 +1,29 @@
+programa{
+
+    cadeia nomeUsuario
+	logico senhaValida = falso
+	cadeia senhaUsuario
+
+    funçao inicio
+    {
+        escreva (Insira seu nome de usuario)
+        ler o (nome de usuario)
+    }
+
+    enquanto(senha)
+    {
+        escreva (Insira uma senha)
+        ler a (senha)
+    }
+
+    enquanto(senha invalida)
+        {
+            Usuario e senha não podem ser os mesmos!!
+        }
+
+    enquanto(senha valida)
+    {
+        Dados salvos com sucesso!!
+    }
+
+}

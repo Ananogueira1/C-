@@ -1,0 +1,39 @@
+programaa{
+
+
+    funcao inicio{
+        escreva (Digite seu nome!!)
+        ler o (nome)
+    }
+
+    int idade;
+    enquanto (idade > 150 || idade < 0)
+    {
+        escreva (Digite sua idade!!)
+        ler a (idade)
+    }
+    
+       double salario;
+    {
+        escreva (Digite seu salário)
+        ler o (salario)
+    }
+
+    enquanto (estadoCivil)
+    {
+        escreva (Digite seu estado cívil ('s'Solteiro(a)) ('c'Casado(a)) ('d'Divorciado(a)) ('v'Viuvo(a)))
+
+        escolha (estadoCivil)
+        {
+            se (estadoCivil)
+                estadoCivil == "s" || estadoCivil == "c" || estadoCivil == "d" || estadoCivil == "v"){
+                estadoCivil == "s"    
+            }
+        }
+        enquanto (estadoCivil != "s")
+        {
+            escreva(Cadastro concluiuido!!)
+        }
+    }
+
+}
